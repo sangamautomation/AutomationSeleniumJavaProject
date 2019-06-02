@@ -13,7 +13,7 @@ public class SeleniumGoogleTest_LinearFramework {
 	public static void main(String[] args) throws Exception {
 
 		//Setup
-		System.out.println("Google Test - Linear Framework");
+		System.out.println("*** Start Google Test - Linear Framework ***");
 		//Launching Browser & Opening URL
 		System.setProperty("webdriver.chrome.driver", "C:/drivers\\chromedriver.exe");
 		//System.setProperty("webdriver.gecko.driver", "C:/drivers\\geckodriver.exe");
@@ -52,6 +52,7 @@ public class SeleniumGoogleTest_LinearFramework {
 		finally {
 			//Close the browser
 			driver.close();
+			System.out.println("*** End Google Test - Linear Framework ***");
 		}
 
 

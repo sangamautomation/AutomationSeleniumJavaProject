@@ -13,3 +13,7 @@
 [0601/104053.790:ERROR:exception_snapshot_win.cc(98)] thread ID 3336 not found in process
 [0601/104054.801:ERROR:process_info.cc(359)] UncheckedAllocate
 [0601/104336.070:ERROR:process_info.cc(359)] UncheckedAllocate
+[0609/102953.844:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0609/110929.361:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0609/110929.809:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0609/120301.042:ERROR:process_info.cc(359)] UncheckedAllocate

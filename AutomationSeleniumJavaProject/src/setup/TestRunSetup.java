@@ -22,7 +22,7 @@ public class TestRunSetup {
 			break;
 
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver","C:/drivers\\firefoxdriver.exe");
+			System.setProperty("webdriver.gecko.driver","C:/drivers\\geckodriver.exe");
 			 driver = new FirefoxDriver();
 			
 			break;

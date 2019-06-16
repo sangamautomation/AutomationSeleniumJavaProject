@@ -66,7 +66,6 @@ public class AutomationPracticeFormObj {
 	public static final String radiobutton_Experience5 = "//input[contains(@id,'exp-5')]";
 	public static final String radiobutton_Experience6 = "//input[contains(@id,'exp-6')]";
 
-
 	public static final String textbox_Date = "//input[contains(@id,'datepicker')]";
 	public static final String checkbox_ManualTester = "//input[contains(@value,'Manual')]";
 	public static final String checkboxAutomationTester = "//input[contains(@value,'Automation')]";

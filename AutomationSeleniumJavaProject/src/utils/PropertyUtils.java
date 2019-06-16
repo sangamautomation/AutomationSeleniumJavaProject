@@ -128,6 +128,7 @@ public class PropertyUtils {
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		System.out.println("All captions cleared @ "+path);
 	}
 
 	 

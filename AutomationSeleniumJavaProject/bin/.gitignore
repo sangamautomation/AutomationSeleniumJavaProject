@@ -1,5 +1,10 @@
-/tests/
-/pageObjects/
-/pageFlows/
+/data/
 /infra/
+/javaLibrary/
+/javaTests/
+/pageFlows/
+/pageObjects/
+/playground/
 /setup/
+/tests/
+/utils/

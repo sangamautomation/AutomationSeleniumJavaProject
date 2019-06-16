@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import data.Constants;
+
 public class TestRunSetup {
 
 	
@@ -16,13 +18,13 @@ public class TestRunSetup {
 		
 		switch (browserType) {
 		case "chrome":
-			System.setProperty("webdriver.chrome.driver","C:/drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",Constants.CHROMEDRIVER_PATH);//C:/drivers\\chromedriver.exe
 			driver = new ChromeDriver();
 			
 			break;
 
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver","C:/drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",Constants.FIREFOXDRIVER_PATH);//C:/drivers\\geckodriver.exe
 			 driver = new FirefoxDriver();
 			
 			break;

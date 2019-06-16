@@ -71,11 +71,12 @@ public class AutomationPracticeFormObj {
 	public static final String checkbox_ManualTester = "//input[contains(@value,'Manual')]";
 	public static final String checkboxAutomationTester = "//input[contains(@value,'Automation')]";
 
+	public static final String button_ProfilePicture = "//input[contains(@id,'photo')]";
 	
+	public static final String link_Download = "//a[contains(text(),'Test File')]";
+	public static final String checkbox_AutomationTool_Selenium = "//input[contains(@name,'tool') and @value='Selenium Webdriver']";
+	public static final String dropdown_continents = "//select[contains(@name,'continents')]";
+	public static final String combobox_SeleniumCommands = "//select[contains(@id,'selenium_commands')]";
+	public static final String button_Submit = "//button[contains(@id,'submit')]";
 	
-
-
-
-
-
 }

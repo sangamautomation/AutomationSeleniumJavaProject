@@ -7,7 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import data.Constants;
-
+/**
+ * Test run setup for launching browser & URL
+ * @author Sangam
+ */
 public class TestRunSetup {
 
 	

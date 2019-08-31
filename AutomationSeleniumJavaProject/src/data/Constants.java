@@ -1,7 +1,10 @@
 package data;
 
 import java.util.Random;
-
+/**
+ * Constants with Paths
+ * @author Sangam
+ */
 public class Constants {
 
 	public static final String CHROMEDRIVER_PATH = "C:\\drivers\\chromedriver.exe";

@@ -11,13 +11,16 @@ import infra.Operations;
 import pageObjects.AutomationPracticeFormObj;
 import utils.KeyboardUtils;
 import utils.ReportingUtils;
-
+/**
+ * Page flows with callings of infra, page objs, utils functions
+ * @author Sangam
+ */
 public class AutomationPracticeFormPage {
 
 	public static void PracticeAutomationForm(WebDriver driver) {
 
 		try {
-			//Capturing text of Automation Practice Form headline
+/*			//Capturing text of Automation Practice Form headline
 			Operations.getText(driver, AutomationPracticeFormObj.label_AutomationPracticeForm);
 			Operations.getText(driver, AutomationPracticeFormObj.label_PersonalInformtion);
 			Operations.clickLink(driver, AutomationPracticeFormObj.link_PartialLinkText);
@@ -63,20 +66,23 @@ public class AutomationPracticeFormPage {
 
 			//Go back
 			driver.navigate().back();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
+			Operations.waitImplicitely(driver, 50);
+			//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+*/
 			Operations.setText(driver, AutomationPracticeFormObj.textbox_FirstName,TestDataPool.tcData.get("firstName1")); 
-			Operations.setText(driver, AutomationPracticeFormObj.textbox_LastName, TestDataPool.tcData.get("lastName1"));
+			Operations.setText(driver, AutomationPracticeFormObj.textbox_LastName, TestDataPool.tcData.get("lastName1"));//data-driven
 
 			Operations.selectRadiobutton(driver, AutomationPracticeFormObj.radiobutton_SexMale);
+			KeyboardUtils.Key_ScrollDown(1);
+
 			Operations.selectRadiobutton(driver, AutomationPracticeFormObj.radiobutton_Experience6);
 
-			Operations.setText(driver, AutomationPracticeFormObj.textbox_Date, "06/09/2019");
+			Operations.setText(driver, AutomationPracticeFormObj.textbox_Date, "07/09/2019");
 			Operations.selectCheckbox(driver, AutomationPracticeFormObj.checkboxAutomationTester);
 
 			Operations.clickLink(driver, AutomationPracticeFormObj.button_ProfilePicture);
 
-			Thread.sleep(5000);
+			Thread.sleep(5000);//Static sleep
 
 			//Browse File
 			String filePath = "C:\\Users\\sanga\\OneDrive\\Documents\\Automation_Class\\Images\\profile.png";

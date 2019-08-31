@@ -7,8 +7,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-public class SeleniumGoogleTest_LinearFramework {
+/**
+ * Selenium Google Test with Linear Framework
+ * @author Sangam
+ */
+public class GoogleLinearFrameworkTest {
 
 	public static void main(String[] args) throws Exception {
 

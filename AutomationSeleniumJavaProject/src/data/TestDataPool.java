@@ -5,7 +5,10 @@ import java.util.HashMap;
 import utils.ExcelUtils;
 import utils.FileSystemUtils;
 import utils.PropertyUtils;
-
+/**
+ * Test data pool reading for test case row data
+ * @author Sangam
+ */
 public class TestDataPool {
 public static HashMap<String, String> tcData = new HashMap<>();
 

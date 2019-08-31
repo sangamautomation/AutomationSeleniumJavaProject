@@ -1,5 +1,8 @@
 package pageObjects;
-
+/**
+ * Page objects with XPaths
+ * @author Sangam
+ */
 public class AutomationPracticeFormObj {
 	
 	public static final String label_AutomationPracticeForm = "//div/h1[contains(text(),'Automation Practice Form')]";
@@ -54,7 +57,7 @@ public class AutomationPracticeFormObj {
 	
 	
 	public static final String textbox_FirstName = "//input[contains(@name,'firstname')]";
-	public static final String textbox_LastName = "//input[contains(@name,'lastname')]";
+	public static final String textbox_LastName = "//input[contains(@id,'lastname')]";
 
 	public static final String radiobutton_SexMale = "//input[contains(@value,'Male')]";
 	public static final String radiobutton_SexFemale = "//input[contains(@value,'Female')]";

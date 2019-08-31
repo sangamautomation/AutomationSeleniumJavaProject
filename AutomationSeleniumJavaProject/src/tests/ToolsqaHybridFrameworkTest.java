@@ -8,8 +8,11 @@ import data.TestDataPool;
 import pageFlows.AutomationPracticeFormPage;
 import setup.TestRunSetup;
 import utils.PropertyUtils;
-
-public class ToolsQA_HybridFramework {
+/**
+ * ToolsQA Test with Hybrid Framework
+ * @author Sangam
+ */
+public class ToolsqaHybridFrameworkTest {
 
 	public static void main(String[] args) {
 
@@ -30,7 +33,7 @@ public class ToolsQA_HybridFramework {
 			e.printStackTrace();
 		}
 		finally {
-			driver.close();
+			//driver.close();
 			System.out.println("*** End ToolsQA Automation Test ***");
 		}
 

@@ -1,1 +1,6 @@
-/javaTests/
+/infra/
+/tests/
+/data/
+/setup/
+/pageFlows/
+/pageObjects/

@@ -53,6 +53,8 @@ public class ExcelUtils {
 		
 		FileInputStream file = null;
 		
+		//File file1 = new File(filePath);
+		//FileInputStream fis = new FileInputStream(file1);
  		try {
 			file = new FileInputStream(new File(filePath));//D:\Selenium_Logs\TestData\Datapool.xls 
 		workbook = new HSSFWorkbook(file);
